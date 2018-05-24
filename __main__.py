@@ -1,6 +1,7 @@
 from collect import crawler as cr
 from analysis import analizer as an
 from visualize import visualizer as vi
+import simplejson
 
 pagename = "jtbcnews"
 from_date = "2018-05-01"
@@ -21,3 +22,6 @@ if __name__ == "__main__" :
 
     #그래프
     vi.show_graph_bar(dictWord, pagename) #폰트네임알아내기
+
+    # 워드크라우드
+    vi.wordcloud(dictWord, pagename)
