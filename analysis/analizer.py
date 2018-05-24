@@ -37,8 +37,8 @@ def count_wordfreq(data) :
 
     return count
 
-dataString=json_to_str("/Users/WOOSEUNGMI/Desktop/2018/javaStudy/facebook/jtbcnews.json", "message_str") #파일경로+경로명, key값(dic의)
-#print(dataString)
-count_wordfreq(dataString)
+# dataString=json_to_str("/Users/WOOSEUNGMI/Desktop/2018/javaStudy/facebook/jtbcnews.json", "message_str") #파일경로+경로명, key값(dic의)
+# #print(dataString)
+# count_wordfreq(dataString)
 
 
